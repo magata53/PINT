@@ -1,0 +1,28 @@
+PREFIX ex: <http://example.org/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+
+
+SELECT DISTINCT ?kodeprov ?namaprov ?kodekab ?namakab ?latitude ?longitude ?pendidikan ?lulusan ?sekolah ?populasi
+WHERE {
+  ?prov a ex:provinsi .
+  ?prov ex:kode_prov ?kodeprov .
+  ?prov rdfs:label ?namaprov .
+  ?kab a ex:kabupaten .
+  ?kab owl:sameAs ?kabdb .
+  ?kab ex:kode_kab ?kodekab .
+  ?kab rdfs:label ?namakab .
+  ?kab ex:terdapat ?jenis .
+  ?jenis a ex:pendidikan .
+  ?jenis rdfs:label ?pendidikan .
+  ?jenis ex:jumlah_orang ?lulusan .
+  ?jenis ex:jumlah_instansi ?sekolah .
+  SERVICE <http://dbpedia.org/sparql>
+  {SELECT * WHERE{
+      ?kabdb dbp:populationTotal ?populasi .
+      ?geo geo:lat ?latitude .
+      ?geo geo:long ?longitude .
+    }}
+}
