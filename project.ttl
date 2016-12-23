@@ -32,415 +32,470 @@ ex:jumlah_instansi rdfs:domain ex:pendidikan .
 ex:jumlah_instansi rdfs:range xsd:integer .
 
 
-ex:jumlah_orang a rdf:property .
-ex:jumlah_orang rdfs:domain ex:pendidikan .
-ex:jumlah_orang rdfs:range xsd:integer .
+ex:jumlah_laki a rdf:property .
+ex:jumlah_laki rdfs:domain ex:pendidikan .
+ex:jumlah_laki rdfs:range xsd:integer .
+
+ex:jumlah_per a rdf:property .
+ex:jumlah_per rdfs:domain ex:pendidikan .
+ex:jumlah_per rdfs:range xsd:integer .
+
 
 
 
 
 
 ex:acehdarussalam a ex:provinsi .
-ex:acehdarussalam ex:kode_prov "11"^^xsd:Integer .
+ex:acehdarussalam ex:kode_prov "11"^^xsd:integer .
 ex:acehdarussalam rdfs:label "Aceh Darussalam" .
 ex:acehdarussalam ex:memiliki ex:kabsimeulue .
 ex:kabsimuelue a ex:kabupaten .
 ex:kabsimuelue owl:sameAs dbr:Simeulue_Regency .
-ex:kabsimuelue ex:kode_kab "1101"^^xsd:Integer .
+ex:kabsimuelue ex:kode_kab "1101"^^xsd:integer .
 ex:kabsimuelue rdfs:label "Kab. Simuelue" .
 ex:kabsimuelue ex:terdapat ex:belumtamatsd1 .
 ex:belumtamatsd1 a ex:pendidikan .
 ex:belumtamatsd1 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd1 ex:jumlah_orang "3180"^^xsd:Integer .
-ex:belumtamatsd1 ex:jumlah_instansi "128"^^xsd:Integer .
+ex:belumtamatsd1 ex:jumlah_laki "1209"^^xsd:integer .
+ex:belumtamatsd1 ex:jumlah_per "1971"^^xsd:integer .
+ex:belumtamatsd1 ex:jumlah_instansi "128"^^xsd:integer .
 
 
 
 ex:kabsimuelue ex:terdapat ex:tamatsd1 .
 ex:tamatsd1 a ex:pendidikan .
 ex:tamatsd1 rdfs:label "Tamat SD" .
-ex:tamatsd1 ex:jumlah_orang "20090"^^xsd:Integer .
-ex:tamatsd1 ex:jumlah_instansi "128"^^xsd:Integer .
+ex:tamatsd1 ex:jumlah_laki "9545"^^xsd:integer .
+ex:tamatsd1 ex:jumlah_per "10545"^^xsd:integer .
+ex:tamatsd1 ex:jumlah_instansi "128"^^xsd:integer .
 
 
 
 ex:kabsimuelue ex:terdapat ex:tamatsltp1 .
 ex:tamatsltp1 a ex:pendidikan .
 ex:tamatsltp1 rdfs:label "Tamat SLTP" .
-ex:tamatsltp1 ex:jumlah_orang "12833"^^xsd:Integer .
-ex:tamatsltp1 ex:jumlah_instansi "57"^^xsd:Integer .
+ex:tamatsltp1 ex:jumlah_laki "6733"^^xsd:integer .
+ex:tamatsltp1 ex:jumlah_per "6100"^^xsd:integer .
+ex:tamatsltp1 ex:jumlah_instansi "57"^^xsd:integer .
 
 
 
 ex:kabsimuelue ex:terdapat ex:tamatslta1 .
 ex:tamatslta1 a ex:pendidikan .
 ex:tamatslta1 rdfs:label "Tamat SLTA" .
-ex:tamatslta1 ex:jumlah_orang "11393"^^xsd:Integer .
-ex:tamatslta1 ex:jumlah_instansi "39"^^xsd:Integer .
+ex:tamatslta1 ex:jumlah_laki "6945"^^xsd:integer .
+ex:tamatslta1 ex:jumlah_per "4448"^^xsd:integer .
+ex:tamatslta1 ex:jumlah_instansi "39"^^xsd:integer .
 
 
 
 ex:kabsimuelue ex:terdapat ex:tamatpt1 .
 ex:tamatpt1 a ex:pendidikan .
 ex:tamatpt1 rdfs:label "Tamat PT" .
-ex:tamatpt1 ex:jumlah_orang "3829"^^xsd:Integer .
-ex:tamatpt1 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt1 ex:jumlah_laki "2043"^^xsd:integer .
+ex:tamatpt1 ex:jumlah_per "1777"^^xsd:integer .
+ex:tamatpt1 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabacehsingkil .
 ex:kabacehsingkil a ex:kabupaten .
 ex:kabacehsingkil owl:sameAs dbr:Aceh_Singkil_Regency .
-ex:kabacehsingkil ex:kode_kab "1102"^^xsd:Integer .
+ex:kabacehsingkil ex:kode_kab "1102"^^xsd:integer .
 ex:kabacehsingkil rdfs:label "Kab. Aceh Singkil" .
 ex:kabacehsingkil ex:terdapat ex:belumtamatsd2 .
 ex:belumtamatsd2 a ex:pendidikan .
 ex:belumtamatsd2 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd2 ex:jumlah_orang "7658"^^xsd:Integer .
-ex:belumtamatsd2 ex:jumlah_instansi "116"^^xsd:Integer .
+ex:belumtamatsd2 ex:jumlah_laki "3407"^^xsd:integer .
+ex:belumtamatsd2 ex:jumlah_per "4251"^^xsd:integer .
+ex:belumtamatsd2 ex:jumlah_instansi "116"^^xsd:integer .
 
 
 ex:kabacehsingkil ex:terdapat ex:tamatsd2 .
 ex:tamatsd2 a ex:pendidikan .
 ex:tamatsd2 rdfs:label "Tamat SD" .
-ex:tamatsd2 ex:jumlah_orang "19744"^^xsd:Integer .
-ex:tamatsd2 ex:jumlah_instansi "116"^^xsd:Integer .
+ex:tamatsd2 ex:jumlah_laki "9897"^^xsd:integer .
+ex:tamatsd2 ex:jumlah_per "9847"^^xsd:integer .
+ex:tamatsd2 ex:jumlah_instansi "116"^^xsd:integer .
 
 ex:kabacehsingkil ex:terdapat ex:tamatsltp2 .
 ex:tamatsltp2 a ex:pendidikan .
 ex:tamatsltp2 rdfs:label "Tamat SLTP" .
-ex:tamatsltp2 ex:jumlah_orang "13317"^^xsd:Integer .
-ex:tamatsltp2 ex:jumlah_instansi "42"^^xsd:Integer .
+ex:tamatsltp2 ex:jumlah_laki "7193"^^xsd:integer .
+ex:tamatsltp2 ex:jumlah_per "6124"^^xsd:integer .
+ex:tamatsltp2 ex:jumlah_instansi "42"^^xsd:integer .
 
 
 ex:kabacehsingkil ex:terdapat ex:tamatslta2 .
 ex:tamatslta2 a ex:pendidikan .
 ex:tamatslta2 rdfs:label "Tamat SLTA" .
-ex:tamatslta2 ex:jumlah_orang "12597"^^xsd:Integer .
-ex:tamatslta2 ex:jumlah_instansi "27"^^xsd:Integer .
+ex:tamatslta2 ex:jumlah_laki "7430"^^xsd:integer .
+ex:tamatslta2 ex:jumlah_per "5167"^^xsd:integer .
+ex:tamatslta2 ex:jumlah_instansi "27"^^xsd:integer .
 
 
 ex:kabacehsingkil ex:terdapat ex:tamatpt2 .
 ex:tamatpt2 a ex:pendidikan .
 ex:tamatpt2 rdfs:label "Tamat PT" .
-ex:tamatpt2 ex:jumlah_orang "4125"^^xsd:Integer .
-ex:tamatpt2 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt2 ex:jumlah_laki "1941"^^xsd:integer .
+ex:tamatpt2 ex:jumlah_per "2184"^^xsd:integer .
+ex:tamatpt2 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabacehselatan .
 ex:kabacehselatan a ex:kabupaten .
 ex:kabacehselatan owl:sameAs dbr:South_Aceh_Regency .
-ex:kabacehselatan ex:kode_kab "1103"^^xsd:Integer .
+ex:kabacehselatan ex:kode_kab "1103"^^xsd:integer .
 ex:kabacehselatan rdfs:label "Kab. Aceh Selatan" .
 ex:kabacehselatan ex:terdapat ex:belumtamatsd3 .
 ex:belumtamatsd3 a ex:pendidikan .
 ex:belumtamatsd3 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd3 ex:jumlah_orang "10696"^^xsd:Integer .
-ex:belumtamatsd3 ex:jumlah_instansi "240"^^xsd:Integer .
+ex:belumtamatsd3 ex:jumlah_laki "4722"^^xsd:integer .
+ex:belumtamatsd3 ex:jumlah_per "5974"^^xsd:integer .
+ex:belumtamatsd3 ex:jumlah_instansi "240"^^xsd:integer .
 
 
 
 ex:kabacehselatan ex:terdapat ex:tamatsd3 .
 ex:tamatsd3 a ex:pendidikan .
 ex:tamatsd3 rdfs:label "Tamat SD" .
-ex:tamatsd3 ex:jumlah_orang "44133"^^xsd:Integer .
-ex:tamatsd3 ex:jumlah_instansi "240"^^xsd:Integer .
+ex:tamatsd3 ex:jumlah_laki "21000"^^xsd:integer .
+ex:tamatsd3 ex:jumlah_per "23133"^^xsd:integer .
+ex:tamatsd3 ex:jumlah_instansi "240"^^xsd:integer .
 
 
 ex:kabacehselatan ex:terdapat ex:tamatsltp3 .
 ex:tamatsltp3 a ex:pendidikan .
 ex:tamatsltp3 rdfs:label "Tamat SLTP" .
-ex:tamatsltp3 ex:jumlah_orang "31684"^^xsd:Integer .
-ex:tamatsltp3 ex:jumlah_instansi "82"^^xsd:Integer .
+ex:tamatsltp3 ex:jumlah_laki "16233"^^xsd:integer .
+ex:tamatsltp3 ex:jumlah_per "15451"^^xsd:integer .
+ex:tamatsltp3 ex:jumlah_instansi "82"^^xsd:integer .
 
 
 ex:kabacehselatan ex:terdapat ex:tamatslta3 .
 ex:tamatslta3 a ex:pendidikan .
 ex:tamatslta3 rdfs:label "Tamat SLTA" .
-ex:tamatslta3 ex:jumlah_orang "31288"^^xsd:Integer .
-ex:tamatslta3 ex:jumlah_instansi "56"^^xsd:Integer .
+ex:tamatslta3 ex:jumlah_laki "17091"^^xsd:integer .
+ex:tamatslta3 ex:jumlah_per "14197"^^xsd:integer .
+ex:tamatslta3 ex:jumlah_instansi "56"^^xsd:integer .
 
 
 ex:kabacehselatan ex:terdapat ex:tamatpt3 .
 ex:tamatpt3 a ex:pendidikan .
 ex:tamatpt3 rdfs:label "Tamat PT" .
-ex:tamatpt3 ex:jumlah_orang "9880"^^xsd:Integer .
-ex:tamatpt3 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt3 ex:jumlah_laki "4385"^^xsd:integer .
+ex:tamatpt3 ex:jumlah_per "5495"^^xsd:integer .
+ex:tamatpt3 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabacehtenggara .
 ex:kabacehtenggara a ex:kabupaten .
 ex:kabacehtenggara owl:sameAs dbr:Southeast_Aceh_Regency .
-ex:kabacehtenggara ex:kode_kab "1104"^^xsd:Integer .
+ex:kabacehtenggara ex:kode_kab "1104"^^xsd:integer .
 ex:kabacehtenggara rdfs:label "Kab. Aceh Tenggara" .
 ex:kabacehtenggara ex:terdapat ex:belumtamatsd4 .
 ex:belumtamatsd4 a ex:pendidikan .
 ex:belumtamatsd4 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd4 ex:jumlah_orang "5140"^^xsd:Integer .
-ex:belumtamatsd4 ex:jumlah_instansi "196"^^xsd:Integer .
+ex:belumtamatsd4 ex:jumlah_laki "1925"^^xsd:integer .
+ex:belumtamatsd4 ex:jumlah_per "3215"^^xsd:integer .
+ex:belumtamatsd4 ex:jumlah_instansi "196"^^xsd:integer .
 
 ex:kabacehtenggara ex:terdapat ex:tamatsd4 .
 ex:tamatsd4 a ex:pendidikan .
 ex:tamatsd4 rdfs:label "Tamat SD" .
-ex:tamatsd4 ex:jumlah_orang "26447"^^xsd:Integer .
-ex:tamatsd4 ex:jumlah_instansi "196"^^xsd:Integer .
+ex:tamatsd4 ex:jumlah_laki "11678"^^xsd:integer .
+ex:tamatsd4 ex:jumlah_per "14769"^^xsd:integer .
+ex:tamatsd4 ex:jumlah_instansi "196"^^xsd:integer .
 
 
 ex:kabacehtenggara ex:terdapat ex:tamatsltp4 .
 ex:tamatsltp4 a ex:pendidikan .
 ex:tamatsltp4 rdfs:label "Tamat SLTP" .
-ex:tamatsltp4 ex:jumlah_orang "33408"^^xsd:Integer .
-ex:tamatsltp4 ex:jumlah_instansi "83"^^xsd:Integer .
+ex:tamatsltp4 ex:jumlah_laki "16640"^^xsd:integer .
+ex:tamatsltp4 ex:jumlah_per "16768"^^xsd:integer .
+ex:tamatsltp4 ex:jumlah_instansi "83"^^xsd:integer .
 
 
 ex:kabacehtenggara ex:terdapat ex:tamatslta4 .
 ex:tamatslta4 a ex:pendidikan .
 ex:tamatslta4 rdfs:label "Tamat SLTA" .
-ex:tamatslta4 ex:jumlah_orang "36290"^^xsd:Integer .
-ex:tamatslta4 ex:jumlah_instansi "57"^^xsd:Integer .
+ex:tamatslta4 ex:jumlah_laki "20452"^^xsd:integer .
+ex:tamatslta4 ex:jumlah_per "15838"^^xsd:integer .
+ex:tamatslta4 ex:jumlah_instansi "57"^^xsd:integer .
 
 
 ex:kabacehtenggara ex:terdapat ex:tamatpt4 .
 ex:tamatpt4 a ex:pendidikan .
 ex:tamatpt4 rdfs:label "Tamat PT" .
-ex:tamatpt4 ex:jumlah_orang "7954"^^xsd:Integer .
-ex:tamatpt4 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt4 ex:jumlah_laki "3834"^^xsd:integer .
+ex:tamatpt4 ex:jumlah_per "4120"^^xsd:integer .
+ex:tamatpt4 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabacehtimur .
 ex:kabacehtimur a ex:kabupaten .
 ex:kabacehtimur owl:sameAs dbr:East_Aceh_Regency .
-ex:kabacehtimur ex:kode_kab "1105"^^xsd:Integer .
+ex:kabacehtimur ex:kode_kab "1105"^^xsd:integer .
 ex:kabacehtimur rdfs:label "Kab. Aceh Timur" .
 ex:kabacehtimur ex:terdapat ex:belumtamatsd5 .
 ex:belumtamatsd5 a ex:pendidikan .
 ex:belumtamatsd5 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd5 ex:jumlah_orang "12989"^^xsd:Integer .
-ex:belumtamatsd5 ex:jumlah_instansi "332"^^xsd:Integer .
+ex:belumtamatsd5 ex:jumlah_laki "5746"^^xsd:integer .
+ex:belumtamatsd5 ex:jumlah_per "7243"^^xsd:integer .
+ex:belumtamatsd5 ex:jumlah_instansi "332"^^xsd:integer .
 
 
 ex:kabacehtimur ex:terdapat ex:tamatsd5 .
 ex:tamatsd5 a ex:pendidikan .
 ex:tamatsd5 rdfs:label "Tamat SD" .
-ex:tamatsd5 ex:jumlah_orang "99061"^^xsd:Integer .
-ex:tamatsd5 ex:jumlah_instansi "332"^^xsd:Integer .
+ex:tamatsd5 ex:jumlah_laki "48224"^^xsd:integer .
+ex:tamatsd5 ex:jumlah_per "50837"^^xsd:integer .
+ex:tamatsd5 ex:jumlah_instansi "332"^^xsd:integer .
 
 
 ex:kabacehtimur ex:terdapat ex:tamatsltp5 .
 ex:tamatsltp5 a ex:pendidikan .
 ex:tamatsltp5 rdfs:label "Tamat SLTP" .
-ex:tamatsltp5 ex:jumlah_orang "63259"^^xsd:Integer .
-ex:tamatsltp5 ex:jumlah_instansi "104"^^xsd:Integer .
+ex:tamatsltp5 ex:jumlah_laki "32530"^^xsd:integer .
+ex:tamatsltp5 ex:jumlah_per "30729"^^xsd:integer .
+ex:tamatsltp5 ex:jumlah_instansi "104"^^xsd:integer .
 
 
 ex:kabacehtimur ex:terdapat ex:tamatslta5 .
 ex:tamatslta5 a ex:pendidikan .
 ex:tamatslta5 rdfs:label "Tamat SLTA" .
-ex:tamatslta5 ex:jumlah_orang "41588"^^xsd:Integer .
-ex:tamatslta5 ex:jumlah_instansi "58"^^xsd:Integer .
+ex:tamatslta5 ex:jumlah_laki "22810"^^xsd:integer .
+ex:tamatslta5 ex:jumlah_per "18778"^^xsd:integer .
+ex:tamatslta5 ex:jumlah_instansi "58"^^xsd:integer .
 
 
 ex:kabacehtimur ex:terdapat ex:tamatpt5 .
 ex:tamatpt5 a ex:pendidikan .
 ex:tamatpt5 rdfs:label "Tamat PT" .
-ex:tamatpt5 ex:jumlah_orang "8682"^^xsd:Integer .
-ex:tamatpt5 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt5 ex:jumlah_laki "3227"^^xsd:integer .
+ex:tamatpt5 ex:jumlah_per "5455"^^xsd:integer .
+ex:tamatpt5 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabacehtengah .
 ex:kabacehtengah a ex:kabupaten .
 ex:kabacehtengah owl:sameAs dbr:Central_Aceh_Regency .
-ex:kabacehtengah ex:kode_kab "1106"^^xsd:Integer .
+ex:kabacehtengah ex:kode_kab "1106"^^xsd:integer .
 ex:kabacehtengah rdfs:label "Kab. Aceh Tengah" .
 ex:kabacehtengah ex:terdapat ex:belumtamatsd6 .
 ex:belumtamatsd6 a ex:pendidikan .
 ex:belumtamatsd6 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd6 ex:jumlah_orang "6792"^^xsd:Integer .
-ex:belumtamatsd6 ex:jumlah_instansi "225"^^xsd:Integer .
+ex:belumtamatsd6 ex:jumlah_laki "3054"^^xsd:integer .
+ex:belumtamatsd6 ex:jumlah_per "3738"^^xsd:integer .
+ex:belumtamatsd6 ex:jumlah_instansi "225"^^xsd:integer .
 
 
 ex:kabacehtengah ex:terdapat ex:tamatsd6 .
 ex:tamatsd6 a ex:pendidikan .
 ex:tamatsd6 rdfs:label "Tamat SD" .
-ex:tamatsd6 ex:jumlah_orang "29434"^^xsd:Integer .
-ex:tamatsd6 ex:jumlah_instansi "225"^^xsd:Integer .
+ex:tamatsd6 ex:jumlah_laki "14662"^^xsd:integer .
+ex:tamatsd6 ex:jumlah_per "14772"^^xsd:integer .
+ex:tamatsd6 ex:jumlah_instansi "225"^^xsd:integer .
 
 
 ex:kabacehtengah ex:terdapat ex:tamatsltp6 .
 ex:tamatsltp6 a ex:pendidikan .
 ex:tamatsltp6 rdfs:label "Tamat SLTP" .
-ex:tamatsltp6 ex:jumlah_orang "29733"^^xsd:Integer .
-ex:tamatsltp6 ex:jumlah_instansi "69"^^xsd:Integer .
+ex:tamatsltp6 ex:jumlah_laki "15527"^^xsd:integer .
+ex:tamatsltp6 ex:jumlah_per "14206"^^xsd:integer .
+ex:tamatsltp6 ex:jumlah_instansi "69"^^xsd:integer .
 
 
 ex:kabacehtengah ex:terdapat ex:tamatslta6 .
 ex:tamatslta6 a ex:pendidikan .
 ex:tamatslta6 rdfs:label "Tamat SLTA" .
-ex:tamatslta6 ex:jumlah_orang "37324"^^xsd:Integer .
-ex:tamatslta6 ex:jumlah_instansi "41"^^xsd:Integer .
+ex:tamatslta6 ex:jumlah_laki "20298"^^xsd:integer .
+ex:tamatslta6 ex:jumlah_per "17026"^^xsd:integer .
+ex:tamatslta6 ex:jumlah_instansi "41"^^xsd:integer .
 
 
 ex:kabacehtengah ex:terdapat ex:tamatpt6 .
 ex:tamatpt6 a ex:pendidikan .
 ex:tamatpt6 rdfs:label "Tamat PT" .
-ex:tamatpt6 ex:jumlah_orang "10999"^^xsd:Integer .
-ex:tamatpt6 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt6 ex:jumlah_laki "4522"^^xsd:integer .
+ex:tamatpt6 ex:jumlah_per "6477"^^xsd:integer .
+ex:tamatpt6 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabacehbarat .
 ex:kabacehbarat a ex:kabupaten .
 ex:kabacehbarat owl:sameAs dbr:West_Aceh_Regency .
-ex:kabacehbarat ex:kode_kab "1107"^^xsd:Integer .
+ex:kabacehbarat ex:kode_kab "1107"^^xsd:integer .
 ex:kabacehbarat rdfs:label "Kab. Aceh Barat" .
 ex:kabacehbarat ex:terdapat ex:belumtamatsd7 .
 ex:belumtamatsd7 a ex:pendidikan .
 ex:belumtamatsd7 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd7 ex:jumlah_orang "6399"^^xsd:Integer .
-ex:belumtamatsd7 ex:jumlah_instansi "191"^^xsd:Integer .
+ex:belumtamatsd7 ex:jumlah_laki "2839"^^xsd:integer .
+ex:belumtamatsd7 ex:jumlah_per "3560"^^xsd:integer .
+ex:belumtamatsd7 ex:jumlah_instansi "191"^^xsd:integer .
 
 
 ex:kabacehbarat ex:terdapat ex:tamatsd7 .
 ex:tamatsd7 a ex:pendidikan .
 ex:tamatsd7 rdfs:label "Tamat SD" .
-ex:tamatsd7 ex:jumlah_orang "35678"^^xsd:Integer .
-ex:tamatsd7 ex:jumlah_instansi "191"^^xsd:Integer .
+ex:tamatsd7 ex:jumlah_laki "17579"^^xsd:integer .
+ex:tamatsd7 ex:jumlah_per "18219"^^xsd:integer .
+ex:tamatsd7 ex:jumlah_instansi "191"^^xsd:integer .
 
 
 ex:kabacehbarat ex:terdapat ex:tamatsltp7 .
 ex:tamatsltp7 a ex:pendidikan .
 ex:tamatsltp7 rdfs:label "Tamat SLTP" .
-ex:tamatsltp7 ex:jumlah_orang "27952"^^xsd:Integer .
-ex:tamatsltp7 ex:jumlah_instansi "67"^^xsd:Integer .
+ex:tamatsltp7 ex:jumlah_laki "15204"^^xsd:integer .
+ex:tamatsltp7 ex:jumlah_per "12748"^^xsd:integer .
+ex:tamatsltp7 ex:jumlah_instansi "67"^^xsd:integer .
 
 
 ex:kabacehbarat ex:terdapat ex:tamatslta7 .
 ex:tamatslta7 a ex:pendidikan .
 ex:tamatslta7 rdfs:label "Tamat SLTA" .
-ex:tamatslta7 ex:jumlah_orang "33821"^^xsd:Integer .
-ex:tamatslta7 ex:jumlah_instansi "41"^^xsd:Integer .
+ex:tamatslta7 ex:jumlah_laki "18984"^^xsd:integer .
+ex:tamatslta7 ex:jumlah_per "14837"^^xsd:integer .
+ex:tamatslta7 ex:jumlah_instansi "41"^^xsd:integer .
 
 
 ex:kabacehbarat ex:terdapat ex:tamatpt7 .
 ex:tamatpt7 a ex:pendidikan .
 ex:tamatpt7 rdfs:label "Tamat PT" .
-ex:tamatpt7 ex:jumlah_orang "9984"^^xsd:Integer .
-ex:tamatpt7 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt7 ex:jumlah_laki "4371"^^xsd:integer .
+ex:tamatpt7 ex:jumlah_per "5613"^^xsd:integer .
+ex:tamatpt7 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabacehbesar .
 ex:kabacehbesar a ex:kabupaten .
 ex:kabacehbesar owl:sameAs dbr:Aceh_Besar_Regency .
-ex:kabacehbesar ex:kode_kab "1108"^^xsd:Integer .
+ex:kabacehbesar ex:kode_kab "1108"^^xsd:integer .
 ex:kabacehbesar rdfs:label "Kab. Aceh Besar" .
 ex:kabacehbesar ex:terdapat ex:belumtamatsd8 .
 ex:belumtamatsd8 a ex:pendidikan .
 ex:belumtamatsd8 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd8 ex:jumlah_orang "9457"^^xsd:Integer .
-ex:belumtamatsd8 ex:jumlah_instansi "262"^^xsd:Integer .
+ex:belumtamatsd8 ex:jumlah_laki "4109"^^xsd:integer .
+ex:belumtamatsd8 ex:jumlah_per "5348"^^xsd:integer .
+ex:belumtamatsd8 ex:jumlah_instansi "262"^^xsd:integer .
 
 
 ex:kabacehbesar ex:terdapat ex:tamatsd8 .
 ex:tamatsd8 a ex:pendidikan .
 ex:tamatsd8 rdfs:label "Tamat SD" .
-ex:tamatsd8 ex:jumlah_orang "49817"^^xsd:Integer .
-ex:tamatsd8 ex:jumlah_instansi "262"^^xsd:Integer .
+ex:tamatsd8 ex:jumlah_laki "24789"^^xsd:integer .
+ex:tamatsd8 ex:jumlah_per "25028"^^xsd:integer .
+ex:tamatsd8 ex:jumlah_instansi "262"^^xsd:integer .
 
 
 ex:kabacehbesar ex:terdapat ex:tamatsltp8 .
 ex:tamatsltp8 a ex:pendidikan .
 ex:tamatsltp8 rdfs:label "Tamat SLTP" .
-ex:tamatsltp8 ex:jumlah_orang "59567"^^xsd:Integer .
-ex:tamatsltp8 ex:jumlah_instansi "105"^^xsd:Integer .
+ex:tamatsltp8 ex:jumlah_laki "31196"^^xsd:integer .
+ex:tamatsltp8 ex:jumlah_per "28371"^^xsd:integer .
+ex:tamatsltp8 ex:jumlah_instansi "105"^^xsd:integer .
 
 
 ex:kabacehbesar ex:terdapat ex:tamatslta8 .
 ex:tamatslta8 a ex:pendidikan .
 ex:tamatslta8 rdfs:label "Tamat SLTA" .
-ex:tamatslta8 ex:jumlah_orang "90811"^^xsd:Integer .
-ex:tamatslta8 ex:jumlah_instansi "75"^^xsd:Integer .
+ex:tamatslta8 ex:jumlah_laki "50852"^^xsd:integer .
+ex:tamatslta8 ex:jumlah_per "39959"^^xsd:integer .
+ex:tamatslta8 ex:jumlah_instansi "75"^^xsd:integer .
 
 
 ex:kabacehbesar ex:terdapat ex:tamatpt8 .
 ex:tamatpt8 a ex:pendidikan .
 ex:tamatpt8 rdfs:label "Tamat PT" .
-ex:tamatpt8 ex:jumlah_orang "28446"^^xsd:Integer .
-ex:tamatpt8 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt8 ex:jumlah_laki "12270"^^xsd:integer .
+ex:tamatpt8 ex:jumlah_per "16176"^^xsd:integer .
+ex:tamatpt8 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabpidie .
 ex:kabpidie a ex:kabupaten .
 ex:kabpidie owl:sameAs dbr:Pidie_Regency .
-ex:kabpidie ex:kode_kab "1109"^^xsd:Integer .
+ex:kabpidie ex:kode_kab "1109"^^xsd:integer .
 ex:kabpidie rdfs:label "Kab. Pidie" .
 ex:kabpidie ex:terdapat ex:belumtamatsd9 .
 ex:belumtamatsd9 a ex:pendidikan .
 ex:belumtamatsd9 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd9 ex:jumlah_orang "15617"^^xsd:Integer .
-ex:belumtamatsd9 ex:jumlah_instansi "338"^^xsd:Integer .
+ex:belumtamatsd9 ex:jumlah_laki "6124"^^xsd:integer .
+ex:belumtamatsd9 ex:jumlah_per "9493"^^xsd:integer .
+ex:belumtamatsd9 ex:jumlah_instansi "338"^^xsd:integer .
 
 
 ex:kabpidie ex:terdapat ex:tamatsd9 .
 ex:tamatsd9 a ex:pendidikan .
 ex:tamatsd9 rdfs:label "Tamat SD" .
-ex:tamatsd9 ex:jumlah_orang "67054"^^xsd:Integer .
-ex:tamatsd9 ex:jumlah_instansi "338"^^xsd:Integer .
+ex:tamatsd9 ex:jumlah_laki "30791"^^xsd:integer .
+ex:tamatsd9 ex:jumlah_per "36263"^^xsd:integer .
+ex:tamatsd9 ex:jumlah_instansi "338"^^xsd:integer .
 
 
 ex:kabpidie ex:terdapat ex:tamatsltp9 .
 ex:tamatsltp9 a ex:pendidikan .
 ex:tamatsltp9 rdfs:label "Tamat SLTP" .
-ex:tamatsltp9 ex:jumlah_orang "70809"^^xsd:Integer .
-ex:tamatsltp9 ex:jumlah_instansi "96"^^xsd:Integer .
+ex:tamatsltp9 ex:jumlah_laki "36473"^^xsd:integer .
+ex:tamatsltp9 ex:jumlah_per "34336"^^xsd:integer .
+ex:tamatsltp9 ex:jumlah_instansi "96"^^xsd:integer .
 
 
 ex:kabpidie ex:terdapat ex:tamatslta9 .
 ex:tamatslta9 a ex:pendidikan .
 ex:tamatslta9 rdfs:label "Tamat SLTA" .
-ex:tamatslta9 ex:jumlah_orang "69124"^^xsd:Integer .
-ex:tamatslta9 ex:jumlah_instansi "60"^^xsd:Integer .
+ex:tamatslta9 ex:jumlah_laki "37339"^^xsd:integer .
+ex:tamatslta9 ex:jumlah_per "31785"^^xsd:integer .
+ex:tamatslta9 ex:jumlah_instansi "60"^^xsd:integer .
 
 
 ex:kabpidie ex:terdapat ex:tamatpt9 .
 ex:tamatpt9 a ex:pendidikan .
 ex:tamatpt9 rdfs:label "Tamat PT" .
-ex:tamatpt9 ex:jumlah_orang "20608"^^xsd:Integer .
-ex:tamatpt9 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt9 ex:jumlah_laki "7921"^^xsd:integer .
+ex:tamatpt9 ex:jumlah_per "12687"^^xsd:integer .
+ex:tamatpt9 ex:jumlah_instansi "0"^^xsd:integer .
 
 
 ex:acehdarussalam ex:memiliki ex:kabbireuen .
 ex:kabbireuen a ex:kabupaten .
 ex:kabbireuen owl:sameAs dbr:Bireuën_Regency .
-ex:kabbireuen ex:kode_kab "1110"^^xsd:Integer .
+ex:kabbireuen ex:kode_kab "1110"^^xsd:integer .
 ex:kabbireuen rdfs:label "Kab. Bireuen" .
 ex:kabbireuen ex:terdapat ex:belumtamatsd10 .
 ex:belumtamatsd10 a ex:pendidikan .
 ex:belumtamatsd10 rdfs:label "Tidak/Belum Tamat SD" .
-ex:belumtamatsd10 ex:jumlah_orang "10383"^^xsd:Integer .
-ex:belumtamatsd10 ex:jumlah_instansi "291"^^xsd:Integer .
+ex:belumtamatsd10 ex:jumlah_laki "4579"^^xsd:integer .
+ex:belumtamatsd10 ex:jumlah_per "5804"^^xsd:integer .
+ex:belumtamatsd10 ex:jumlah_instansi "291"^^xsd:integer .
 
 
 ex:kabbireuen ex:terdapat ex:tamatsd10 .
 ex:tamatsd10 a ex:pendidikan .
 ex:tamatsd10 rdfs:label "Tamat SD" .
-ex:tamatsd10 ex:jumlah_orang "78680"^^xsd:Integer .
-ex:tamatsd10 ex:jumlah_instansi "291"^^xsd:Integer .
+ex:tamatsd10 ex:jumlah_laki "37044"^^xsd:integer .
+ex:tamatsd10 ex:jumlah_per "41636"^^xsd:integer .
+ex:tamatsd10 ex:jumlah_instansi "291"^^xsd:integer .
 
 
 ex:kabpidie ex:terdapat ex:tamatsltp10 .
 ex:tamatsltp10 a ex:pendidikan .
 ex:tamatsltp10 rdfs:label "Tamat SLTP" .
-ex:tamatsltp10 ex:jumlah_orang "79265"^^xsd:Integer .
-ex:tamatsltp10 ex:jumlah_instansi "109"^^xsd:Integer .
+ex:tamatsltp10 ex:jumlah_laki "39728"^^xsd:integer .
+ex:tamatsltp10 ex:jumlah_per "39537"^^xsd:integer .
+ex:tamatsltp10 ex:jumlah_instansi "109"^^xsd:integer .
 
 
 ex:kabbireuen ex:terdapat ex:tamatslta10 .
 ex:tamatslta10 a ex:pendidikan .
 ex:tamatslta10 rdfs:label "Tamat SLTA" .
-ex:tamatslta10 ex:jumlah_orang "76173"^^xsd:Integer .
-ex:tamatslta10 ex:jumlah_instansi "64"^^xsd:Integer .
+ex:tamatslta10 ex:jumlah_laki "39094"^^xsd:integer .
+ex:tamatslta10 ex:jumlah_per "37079"^^xsd:integer .
+ex:tamatslta10 ex:jumlah_instansi "64"^^xsd:integer .
 
 
 ex:kabbireuen ex:terdapat ex:tamatpt10 .
 ex:tamatpt10 a ex:pendidikan .
 ex:tamatpt10 rdfs:label "Tamat PT" .
-ex:tamatpt10 ex:jumlah_orang "20506"^^xsd:Integer .
-ex:tamatpt10 ex:jumlah_instansi "0"^^xsd:Integer .
+ex:tamatpt10 ex:jumlah_laki "7415"^^xsd:integer .
+ex:tamatpt10 ex:jumlah_per "13091"^^xsd:integer .
+ex:tamatpt10 ex:jumlah_instansi "0"^^xsd:integer .
