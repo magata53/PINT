@@ -5,7 +5,7 @@ PREFIX dbp: <http://dbpedia.org/property/>
 PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
 
 
-SELECT DISTINCT ?kodeprov ?namaprov ?kodekab ?namakab ?latitude ?longitude ?pendidikan ?lulusan ?sekolah ?populasi
+SELECT DISTINCT ?kodeprov ?namaprov ?kodekab ?namakab ?latitude ?longitude ?pendidikan ?lulusan ?sekolah ?populasi (?lulusan*100/?populasi as ?persentasependidikan)
 WHERE {
   ?prov a ex:provinsi .
   ?prov ex:kode_prov ?kodeprov .
@@ -22,7 +22,7 @@ WHERE {
   SERVICE <http://dbpedia.org/sparql>
   {SELECT * WHERE{
       ?kabdb dbp:populationTotal ?populasi .
-      ?geo geo:lat ?latitude .
-      ?geo geo:long ?longitude .
+      ?kabdb geo:lat ?latitude .
+      ?kabdb geo:long ?longitude .
     }}
 }
